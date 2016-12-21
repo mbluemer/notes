@@ -5,3 +5,4 @@ This is my collection of notes, currently just a small experiment in note taking
 ## Contents
 
 1. [Books](/books/)
+2. [Online Courses](/online-courses/)
