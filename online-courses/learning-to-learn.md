@@ -48,3 +48,5 @@ Procrastination can be treated like a bad habit and so we can work to prevent it
   - Identify what triggers the action based on location, time, emotions, and what actions preceded the habit
 4. Make a plan
   - Determine what new routine you will adopt given the previously determined cue
+
+**Memory consolidation** is the process committing active memories into long term memories and then those memories can later be changed via **reconsolidation**.
