@@ -6,3 +6,4 @@ This is my collection of notes, currently just a small experiment in note taking
 
 1. [Books](/books/)
 2. [Online Courses](/online-courses/)
+3. [Articles and Papers](/articles-and-papers/)
