@@ -43,3 +43,25 @@ There are some key rules to know **before** entering a market:
 - The more valuable a prospect believes your product is the more likely they'll buy (**Perceived Value**)
   - This is why more aesthetically pleasing products and brands do better
   - Perceived value is unique to the prospect's situation
+___
+There are 12 standard **forms of value**:
+1. **Product** - A tangible form of value
+  - *Goal:* Produce inexpensively and sell as many as possible for as high a price as possible
+  - *Upsides:* Easily duplicated and scalable
+  - Either durable (cars, computers, ...) or consumable (food, medication, ...)
+2. **Service** - Helping or assisting someone in exchange for a fee
+  - *Goal:* Have employees with a skill or ability that people require and deliver is at the highest quality
+  - *Upsides:* Can be lucrative if skills are rare
+  - *Downsides:* Not easily duplicated and large investment of time and energy
+3. **Shared Resource** - A durable asset that can be used by many people
+  - *Goal:* Serve many users while maintaining and improving the resource and user's experience
+  - *Downsides:* Need to cover up front costs, carefully monitor usage levels, and keep up with maintenance
+4. **Subscription** - Program that provides ongoing predefined benefits for a recurring fee
+  - *Goal:* Build a subscriber base that you provide value to on a regular basis and collect a fee
+  - *Upsides:* Steady, predictable revenue
+  - *Downsides:* Must keep steady customers while acquiring new ones
+5. **Resale** - Acquisition of an asset from a wholesale retailer and re-sale to a retail buyer
+  - *Goal:* Purchase product inexpensively and re-sell as quickly as possible at as high a markup as possible
+  - *Upsides:* Don't have to worry about product creation
+  - *Downsides:* Requires close relationship management with distributors
+6. 
