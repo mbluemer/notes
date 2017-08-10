@@ -51,3 +51,10 @@ There may also be sections of the application that are hidden to normal navigati
 - it's also useful to try and infer other resources from existing resources based on naming schema, trends, etc.
 - there may also be content that was linked to in the past that can be found through search engines or web archives.
 - it's useful to look for hidden parameters.
+
+It's also good to investigate:
+- the applications core functionality
+- peripheral application behavior such as administrative and logging functions
+- core security mechanisms and how they function
+- the technologies employed on both client and server side
+- any other architectural information
