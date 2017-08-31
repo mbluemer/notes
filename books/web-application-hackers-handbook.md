@@ -28,3 +28,33 @@ By Dafydd Stuttard and Marcus Pinto
 
 ## 3 | Web Application Technologies
 
+*Cookies* are a vehicle for the server to send items of data to the client, which the client then stores and resubmits to the server on each subsequent request.
+
+An *HTTP Proxy* is a server that mediates between the client and web server. It's important to note that when HTTPS is used the client must do the SSL handshake with the destination web server, not the proxy. The browser will make a CONNECT request to the proxy via HTTP and then the proxy will just act as a TCP-level relay to the destination server.
+
+The *same-origin policy* is a mechanism in a browsers that specifies that a site can only read and modify content that came from that same site. This prevents malicious websites from messing with the users confidential information or from making requests to other sites on behalf of the user.
+
+## 4 | Mapping the Application
+
+The first step in attacking an application is enumerating it's content and functionality in order to understand its attack surface.
+
+A basic manual walk through the application and look at the site map is great but there are more advanced tools that can be used such as:
+- *web spidering* (web crawling) tools search through the whole site, automatically recursively following links
+  - There are great existing spidering tools such as Burp Suite, WebScarab, Zed Attack Proxy, etc
+  - Important to note that there are limitation such as programmatically generated navigation, complicated input validation, volatile URLs that cause infinite recursion, etc.
+  - Also be careful of sites that have obvious functionality exposed that could be damaging such as an exposed CMS that could delete content from the site.
+- *user directed spidering* is where a user clicks through an application manually but extra tools intercept requests and responses to create a map
+  - Some of the key advantages: users can follow complex navigation, user can navigate complicated validation, user can log in and ensure authenticated session, user can avoid dangerous functionality.
+
+There may also be sections of the application that are hidden to normal navigation techniques. These hidden areas may only be discoverable with a combination of various techniques and a certain degree of luck.
+- tools can be used to run through possible hidden directories in an automated manner.
+- it's also useful to try and infer other resources from existing resources based on naming schema, trends, etc.
+- there may also be content that was linked to in the past that can be found through search engines or web archives.
+- it's useful to look for hidden parameters.
+
+It's also good to investigate:
+- the applications core functionality
+- peripheral application behavior such as administrative and logging functions
+- core security mechanisms and how they function
+- the technologies employed on both client and server side
+- any other architectural information
